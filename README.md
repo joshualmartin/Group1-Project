@@ -47,8 +47,8 @@ Please see this link for our deployed website: [Oppenheimer](https://).
 - third
 
 ## Style Guide
+![styleguide](https://github.com/joshualmartin/Group1-Project/assets/45828392/590a3044-c821-4a33-87b3-19d4ea14a9b5)
 
-File
 
 ## Wireframes
 

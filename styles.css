@@ -1,0 +1,275 @@
+/* Color Palette */
+:root {
+    --color-licorice: #07161D;
+    --color-deep-carrot-orange: #F26530;
+    --color-white: #FFFFFF;
+    --color-rufous: #AB280C;
+    --color-peach-yellow: #F9DBAE;
+}
+
+/* Body */
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility classes for background colors */
+.bg-licorice { background-color: var(--color-licorice); }
+.bg-deep-carrot-orange { background-color: var(--color-deep-carrot-orange); }
+.bg-white { background-color: var(--color-white); }
+.bg-rufous { background-color: var(--color-rufous); }
+.bg-peach-yellow { background-color: var(--color-peach-yellow); }
+
+
+/* Utility classes for text colors */
+.text-licorice { color: var(--color-licorice); }
+.text-deep-carrot-orange { color: var(--color-deep-carrot-orange); }
+.text-white { color: var(--color-white); }
+.text-rufous { color: var(--color-rufous); }
+.text-peach-yellow { color: var(--color-peach-yellow); }
+  
+
+.section{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.section__header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.section__header--1 {
+  font-size: 32px;
+  color: var(--color-deep-carrot-orange);
+}
+
+.section__header--2 {
+  font-size: 24px;
+  color: var(--color-peach-yellow);
+}
+
+.section__header--3 {
+  font-size: 18px;
+  color: var(--color-deep-carrot-orange);
+}
+
+.section__header--4 {
+  font-size: 16px;
+  color: var(--color-deep-carrot-orange);
+}
+
+.section__header--5 {
+  font-size: 13px;
+  color: var(--color-deep-carrot-orange);
+}
+
+.section__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: var(--color-white);
+}
+
+.section__image--left {
+  float: left; 
+  margin-right: 20px; 
+  margin-bottom: 20px; 
+  width: 400px; 
+  max-width: 100%;
+  height: auto; 
+}
+
+.section__image--right {
+  float: right; 
+  margin-left: 20px; 
+  margin-bottom: 20px; 
+  width: 400px; 
+  max-width: 100%;
+  height: auto; 
+}
+
+
+.section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Paragraph and link text */
+p {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+a {
+  color: var(--color-peach-yellow);
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+
+/* Website Title Header */
+.title{
+  display: flex;
+  justify-content: center;
+  background-image: url('https://woforgmedia.wordonfire.org/wp-content/uploads/2023/07/15093031/full.5664a8.jpg'); 
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title__header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 80px; 
+  color: var(--color-licorice);
+}
+
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--color-rufous);
+  padding: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar__item {
+  text-decoration: none;
+  color: var(--color-white); 
+  font-size: 24px; 
+  margin-left: 1em; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  transition: transform 250ms;
+}
+
+.navbar__item:hover {
+  transform: translateY(-5px);
+  color: var(--color-licorice)
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+
+/* Footer animation */
+@keyframes gradient-animation {
+  0% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: right bottom;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  margin-top: 20px;
+  color: var(--color-white); 
+  
+  /* Gradient background */
+  background: linear-gradient(to left, var(--color-licorice), var(--color-deep-carrot-orange), var(--color-peach-yellow), var(--color-rufous), var(--color-licorice));
+  background-size: 500% 500%;
+  
+  /* Animation */
+  animation: gradient-animation 10s ease infinite;
+}
+
+
+
+/* Media Queries */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar__item {
+    font-size: 24px; 
+    padding: 0.5em 1em; 
+  }
+  
+  .title__header{
+    font-size: 80px; 
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar__item {
+    font-size: 20px; 
+    padding: 0.5em 0.75em; 
+  }
+  
+  .title__header{
+    font-size: 48px; 
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar__item {
+    font-size: 18px; 
+    padding: 0.5em 0.5em; 
+  }
+  
+  .title__header{
+    font-size: 36px; 
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+  .navbar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 1em;
+  }
+
+  .navbar__item {
+    font-size: 16px; 
+    padding: 0.5em;
+    text-align: center; 
+    width: 100%; 
+  }
+  
+  .navbar__links {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .title__header {
+    font-size: 32px;
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+
+  .title {
+    padding: 0;
+    width: 100%;
+  }
+}
+

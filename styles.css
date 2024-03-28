@@ -113,7 +113,7 @@ a {
 
 
 /* Website Title Header */
-.title{
+ .title{
   display: flex;
   justify-content: center;
   background-image: url('https://woforgmedia.wordonfire.org/wp-content/uploads/2023/07/15093031/full.5664a8.jpg'); 
@@ -128,6 +128,8 @@ a {
   font-size: 80px; 
   color: var(--color-licorice);
 }
+
+
 
 
 /* Navbar styles */
@@ -273,3 +275,61 @@ a {
   }
 }
 
+/* Awards Page CSS */
+
+.award {
+  background-color: #F26530;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+  
+}
+
+
+
+.award__div{
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.award__img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.award__title {
+  
+  display: flex;
+  justify-content: center;
+  background-image: url('https://t4.ftcdn.net/jpg/05/71/10/89/240_F_571108914_NBZnrYhx6iYRGelgFYSJcVAbYts3P5lw.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  color: var(--color-deep-carrot-orange);
+  font-size: 80px;
+}
+
+.award__subheader {
+ text-align: center;
+ color: #F26530;
+}
+
+.award__text {
+  max-width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.award__img:hover {
+  transform: translateY(-10px);
+  transition: 250ms;
+}

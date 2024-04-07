@@ -32,7 +32,6 @@ Please see this link for our deployed website: [Oppenheimer](https://).
 ## Challenges We Faced
 ### Alejandra
 - I had some issues figuring out how to create the same page with the formatting of the rest of the website, luckly Josh helped us building up the basic data for the pages.
-- I didn't realize the home page was separate from the index.html page, Josh again helped me figure that out. 
 - Refresh my knowledge on pushing and committing on a group GitHub project.
 ### Julia
 - first

@@ -54,6 +54,7 @@ color: var(--color-peach-yellow);
 .section__header--3 {
 font-size: 18px;
 color: var(--color-deep-carrot-orange);
+clear: both;
 }
 
 .section__header--4 {

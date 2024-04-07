@@ -56,6 +56,7 @@ Please see this link for our deployed website: [Oppenheimer](https://).
 
 ![Artboard 4](https://github.com/joshualmartin/Group1-Project/assets/45828392/8ebfc3e4-0b81-4844-9cb4-73a7ef7151f9)
 
+
 ## SEO and Accessibility Screenshots
 ![SEO](images/accessibility.png)
 

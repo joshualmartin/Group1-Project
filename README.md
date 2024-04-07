@@ -54,7 +54,6 @@ Please see this link for our deployed website: [Oppenheimer](https://).
 File
 
 ## SEO and Accessibility Screenshots
-![SEO]([https://github.com/joshualmartin/Group1-Project/assets/45828392/590a3044-c821-4a33-87b3-19d4ea14a9b5](https://github.com/joshualmartin/Group1-Project/blob/main/images/SEO.png?raw=true)
-
-![Accessibility]([https://github.com/joshualmartin/Group1-Project/assets/45828392/590a3044-c821-4a33-87b3-19d4ea14a9b5](https://github.com/joshualmartin/Group1-Project/blob/main/images/SEO.png?raw=true)
+![SEO](images/accessibility.png)
+![Accessibility](images/SEO.png)
 

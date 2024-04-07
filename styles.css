@@ -336,3 +336,54 @@ a {
   transform: translateY(-10px);
   transition: 250ms;
 }
+
+/* Cast CSS */
+.jumbotron {
+  position: relative;
+  text-align: center;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #07161D;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.img_card {
+  width: 300px;
+  box-shadow: #F26530 4px 4px 10px 2px;
+  border-radius: 3px;
+}
+
+.img_card__img {
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.img_card__text {
+  padding: 0 12px;
+}
+
+.img_card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 350px;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}

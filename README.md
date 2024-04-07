@@ -34,26 +34,30 @@ Please see this link for our deployed website: [Oppenheimer](https://).
 - I had some issues figuring out how to create the same page with the formatting of the rest of the website, luckly Josh helped us building up the basic data for the pages.
 - Refresh my knowledge on pushing and committing on a group GitHub project.
 ### Julia
-- first
-- second
-- third
+- During my recent Github repository update, I encountered difficulties with creating branches, forking, and initiating pull requests. This unfamiliarity led to moments of frustration, resulting in a few meltdowns. Fortunately, my classmates graciously stepped in to offer guidance and support, helping me navigate through the process and successfully resolve the issues. Their assistance proved invaluable in overcoming the challenges I faced during this task
 ### Josh
 - I had some issues figuring out how to write up the code for the CSS animation. It took some searching and learning!
 - I had to refresh myself on how to make the images float and wrap text.
+- I had difficulty figuring out how to manage the GitHub pull requests and get everything approved for merging (even though my teammates did everything according to the book).
 ### Sheryl
-- first
-- second
-- third
+- I had trouble with alignment and placement. I tried to use BEM to organize CSS but I was not comfortable doing it.
 
 ## Style Guide
 ![styleguide](https://github.com/joshualmartin/Group1-Project/assets/45828392/590a3044-c821-4a33-87b3-19d4ea14a9b5)
 
 
-## Wireframes
+## Wireframes!
 
-File
+[Artboard 1](https://github.com/joshualmartin/Group1-Project/assets/45828392/bbbf2af9-2a59-4072-b98f-3ab7651396bd)
+
+![Artboard 2](https://github.com/joshualmartin/Group1-Project/assets/45828392/1b6f3a75-58c5-4e8b-8dd2-780621b8aa90)
+
+![Artboard 3](https://github.com/joshualmartin/Group1-Project/assets/45828392/e5b8f93c-b018-4265-b2a5-5db590565637)
+
+![Artboard 4](https://github.com/joshualmartin/Group1-Project/assets/45828392/8ebfc3e4-0b81-4844-9cb4-73a7ef7151f9)
 
 ## SEO and Accessibility Screenshots
 ![SEO](images/accessibility.png)
+
 ![Accessibility](images/SEO.png)
 
